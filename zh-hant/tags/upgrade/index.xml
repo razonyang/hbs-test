@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Upgrade on Hugo Bootstrap</title>
+    <link>https://razonyang.github.io/hbs-test/zh-hant/tags/upgrade/</link>
+    <description>Recent content in Upgrade on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2016-2022 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sat, 26 Feb 2022 17:10:39 +0200</lastBuildDate><atom:link href="https://razonyang.github.io/hbs-test/zh-hant/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通過 via Hugo Module 安裝</title>
+      <link>https://razonyang.github.io/hbs-test/zh-hant/docs/getting-started/installation/hugo-module/</link>
+      <pubDate>Sat, 26 Feb 2022 17:10:39 +0200</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/zh-hant/docs/getting-started/installation/hugo-module/</guid>
+      <description><![CDATA[This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. Proxy (Optional)# If you&rsquo;re located at China mainland without VPN, the Hugo module download may fail. There are two proxies for this: GOPROXY.CN and GOPROXY.IO. 1$ export HUGO_MODULE_PROXY=https://goproxy.cn Please note that, Hugo doesn&rsquo;t respect the GOPROXY env var, please use HUGO_MODULE_PROXY instead. You can also set the module.proxy instead of using env var.]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

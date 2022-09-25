@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Introduction on Hugo Theme Bootstrap Docs v1</title>
+    <link>https://razonyang.github.io/hbs-test/en/categories/introduction/</link>
+    <description>Recent content in Introduction on Hugo Theme Bootstrap Docs v1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2016-2022 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Mon, 13 Jun 2022 16:32:09 +0800</lastBuildDate><atom:link href="https://razonyang.github.io/hbs-test/en/categories/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/getting-started/introduction/</link>
+      <pubDate>Mon, 13 Jun 2022 16:32:09 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/getting-started/introduction/</guid>
+      <description><![CDATA[<p>Hugo Bootstrap Theme(HBS) is a fast, responsive, multipurpose and feature-rich Hugo theme. It is used for blog and document sites typically.</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

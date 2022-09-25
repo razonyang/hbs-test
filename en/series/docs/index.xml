@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docs on Hugo Theme Bootstrap Docs v1</title>
+    <link>https://razonyang.github.io/hbs-test/en/series/docs/</link>
+    <description>Recent content in Docs on Hugo Theme Bootstrap Docs v1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2016-2022 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Thu, 15 Sep 2022 10:46:23 +0800</lastBuildDate><atom:link href="https://razonyang.github.io/hbs-test/en/series/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Landing Page Layout</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/layouts/landing/</link>
+      <pubDate>Thu, 15 Sep 2022 10:46:23 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/layouts/landing/</guid>
+      <description><![CDATA[<p>In this article, we&rsquo;ll talk about the landing page layout, you may be interested in it if you&rsquo;re going to customizing the pages in Markdown way.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Repository Widget</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/widgets/repository/</link>
+      <pubDate>Fri, 09 Sep 2022 21:06:19 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/widgets/repository/</guid>
+      <description><![CDATA[<p>The repository widget shows the commit information about current page, it&rsquo;s useful for users to view or edit the source code.</p>]]></description><enclosure url="https://razonyang.github.io/hbs-test/en/docs/widgets/repository/featured.png" length="10492" type="image/png" />
+    </item>
+    
+    <item>
+      <title>Deploy to GitLab Pages</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/deployment/gitlab-pages/</link>
+      <pubDate>Sat, 27 Aug 2022 10:30:23 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/deployment/gitlab-pages/</guid>
+      <description><![CDATA[<p>This article explains how to deploy sites to <a href="https://docs.gitlab.com/ee/user/project/pages/" target="_blank" rel="noopener noreferrer">GitLab Pages<i class="fas fa-external-link-square-alt ms-1"></i></a> using GitLab CI.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Deployment Overview</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/deployment/overview/</link>
+      <pubDate>Wed, 27 Jul 2022 18:00:25 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/deployment/overview/</guid>
+      <description><![CDATA[<p>In this section, we are going to talk about the key points of deployments to avoid most problems during deployment.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Layouts Overriding</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/advanced/layouts-overriding/</link>
+      <pubDate>Wed, 27 Jul 2022 16:05:37 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/advanced/layouts-overriding/</guid>
+      <description><![CDATA[<p>According to the <a href="https://gohugo.io/templates/lookup-order/" target="_blank" rel="noopener noreferrer">Hugo Layouts Lookup Order<i class="fas fa-external-link-square-alt ms-1"></i></a>, it&rsquo;s easy to override Hugo and theme&rsquo;s layouts and partials.
+It&rsquo;s useful for users who want to custom some stuff of particular layouts or partials.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Sticky Widgets</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/topics/sticky-widgets/</link>
+      <pubDate>Wed, 27 Jul 2022 08:54:43 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/topics/sticky-widgets/</guid>
+      <description><![CDATA[<p>When the page is too long, the sidebar will disappear with scrolling and the page will not look as neat and beautiful.
+So this article will introduce how to use sticky widgets to avoid this problem.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Multilingual Mode</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/configuration/multilangual/</link>
+      <pubDate>Wed, 27 Jul 2022 08:06:06 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/configuration/multilangual/</guid>
+      <description><![CDATA[<p>HBS suppports multiple languages out of box, such as English, Simplified Chinese, Traditional Chinese, French, Russian etc.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>PurgeCSS</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/advanced/purgecss/</link>
+      <pubDate>Mon, 25 Jul 2022 12:06:00 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/advanced/purgecss/</guid>
+      <description><![CDATA[<p>The PurgeCSS is an awesome tool that remove unused CSS from your site.
+In this section, we will dive into how the PurgeCSS work, and what should we pay attention to.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Performance</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/advanced/performance/</link>
+      <pubDate>Sat, 23 Jul 2022 18:30:48 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/advanced/performance/</guid>
+      <description><![CDATA[<p>In this article we are going to talk about how to improve the performance of your sites.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/advanced/events/</link>
+      <pubDate>Sat, 23 Jul 2022 17:33:59 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/advanced/events/</guid>
+      <description><![CDATA[<p>This articles listed some custom events emitted by the theme, you can catch those events via event listeners.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>SCSS Variables</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/advanced/scss-variables/</link>
+      <pubDate>Sat, 23 Jul 2022 17:23:28 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/advanced/scss-variables/</guid>
+      <description><![CDATA[<p>Thanks to <code>assets/main/scss/_variables.scss</code>, we have the ability to change the default SCSS variables of theme and Bootstrap.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Text Shortcodes</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/shortcodes/text/</link>
+      <pubDate>Fri, 15 Jul 2022 01:00:43 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/shortcodes/text/</guid>
+      <description><![CDATA[<p>In this article, we will explore some shortcodes for text, such as alignment, transform and selection.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Building a Docker Image</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/deployment/docker/</link>
+      <pubDate>Wed, 13 Jul 2022 10:30:29 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/deployment/docker/</guid>
+      <description><![CDATA[<p>This article will detail how to build a Docker image.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Deploy to GitHub Pages</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/deployment/github-pages/</link>
+      <pubDate>Wed, 13 Jul 2022 10:30:23 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/deployment/github-pages/</guid>
+      <description><![CDATA[<p>This article explains how to deploy sites to <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages<i class="fas fa-external-link-square-alt ms-1"></i></a> using GitHub Actions.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Deploy on Cloudflare Pages</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/deployment/cloudflare-pages/</link>
+      <pubDate>Tue, 12 Jul 2022 20:06:24 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/deployment/cloudflare-pages/</guid>
+      <description><![CDATA[<p>This article show you how to deploy your site to <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">Cloudflare Pages<i class="fas fa-external-link-square-alt ms-1"></i></a>.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Deploy to Netlify</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/deployment/netlify/</link>
+      <pubDate>Tue, 12 Jul 2022 14:20:49 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/deployment/netlify/</guid>
+      <description><![CDATA[<p>This article shows how to deploy your site to <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify<i class="fas fa-external-link-square-alt ms-1"></i></a>.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Upgradation</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/getting-started/upgradation/</link>
+      <pubDate>Sat, 25 Jun 2022 22:15:02 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/getting-started/upgradation/</guid>
+      <description><![CDATA[<p>This article explains how to upgrade the theme correctly.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Migrating to v1</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/migration/</link>
+      <pubDate>Mon, 20 Jun 2022 17:46:31 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/migration/</guid>
+      <description><![CDATA[<p>Track and review changes to the theme source files and documentation to help you migrate from <code>v0.*</code> to <code>v1</code>.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Code Toggle</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/shortcodes/code-toggle/</link>
+      <pubDate>Mon, 13 Jun 2022 16:54:28 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/shortcodes/code-toggle/</guid>
+      <description><![CDATA[<p>The <code>code-toggle</code> shortcode generates code blocks of various formats according to the configuration code of any supported format.</p>]]></description><enclosure url="https://razonyang.github.io/hbs-test/en/docs/shortcodes/code-toggle/featured.png" length="13581" type="image/png" />
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/getting-started/introduction/</link>
+      <pubDate>Mon, 13 Jun 2022 16:32:09 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/getting-started/introduction/</guid>
+      <description><![CDATA[<p>Hugo Bootstrap Theme(HBS) is a fast, responsive, multipurpose and feature-rich Hugo theme. It is used for blog and document sites typically.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Prerequisites</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/getting-started/prerequisites/</link>
+      <pubDate>Mon, 13 Jun 2022 16:32:09 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/getting-started/prerequisites/</guid>
+      <description><![CDATA[<p>Please make sure you meet the prerequisites prior to installing the theme.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Gallery Shortcode</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/shortcodes/gallery/</link>
+      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/shortcodes/gallery/</guid>
+      <description><![CDATA[<p>This article shows how to use the <code>gallery</code> shortcode.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Install via Hugo Module</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/getting-started/installation/hugo-module/</link>
+      <pubDate>Sat, 26 Feb 2022 17:10:39 +0200</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/getting-started/installation/hugo-module/</guid>
+      <description><![CDATA[This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module.
+Proxy (Optional)# If you&rsquo;re located at China mainland without VPN, the Hugo module download may fail.
+There are two proxies for this: GOPROXY.CN and GOPROXY.IO.
+1$ export HUGO_MODULE_PROXY=https://goproxy.cn Please note that, Hugo doesn&rsquo;t respect the GOPROXY env var, please use HUGO_MODULE_PROXY instead.
+You can also set the module.proxy instead of using env var.]]></description>
+    </item>
+    
+    <item>
+      <title>Docs Layout</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/layouts/docs/</link>
+      <pubDate>Wed, 12 Jan 2022 10:56:34 -0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/layouts/docs/</guid>
+      <description><![CDATA[<p>In this article, we&rsquo;ll explore the <code>docs</code> layout, which can be used to write project documentation, personal notes, and more.</p>]]></description><enclosure url="https://razonyang.github.io/hbs-test/en/docs/layouts/docs/featured.png" length="157833" type="image/png" />
+    </item>
+    
+    <item>
+      <title>Menu</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/configuration/menu/</link>
+      <pubDate>Thu, 16 Dec 2021 17:25:20 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/configuration/menu/</guid>
+      <description><![CDATA[<p>We predefined two types of menus: <code>main</code> and <code>footer</code>, represents the top app bar menus and the footer menus, respectively.
+This article will briefly introduce how to use the menus.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>FAQ Layout</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/layouts/faq/</link>
+      <pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/layouts/faq/</guid>
+      <description><![CDATA[<p>The <a href="https://razonyang.github.io/hbs-test/en/faq/">FAQ</a> page is a collection of frequently asked questions.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Adding Content</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/content/</link>
+      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/content/</guid>
+      <description><![CDATA[Main Sections# The mainSections parameter is used to filter pages, default to [&quot;posts&quot;, &quot;docs&quot;].
+1mainSections = [&#34;blog&#34;, &#34;posts&#34;, &#34;docs&#34;, &#34;notes&#34;] Front Matter# Front Matter is the place where we put page metadata and parameters, such as title, date and so on.
+Formats# Hugo supports three formats of front matter: YAML, TOML and JSON.
+TOML: identified by opening and closing +++. YAML: identified by opening and closing ---. JSON: a single JSON object surrounded by { and }, followed by a new line.]]></description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/getting-started/</link>
+      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/getting-started/</guid>
+      <description><![CDATA[]]></description>
+    </item>
+    
+    <item>
+      <title>Install via Git Submodule</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/getting-started/installation/git-submodule/</link>
+      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/getting-started/installation/git-submodule/</guid>
+      <description><![CDATA[This article refers to the traditional installation method of cloning the theme locally as Git submodule. While this installation method is still widely used, we recommend to install the theme as Hugo module.
+Create a New Site from Scratch# 1$ git clone https://github.com/razonyang/hugo-theme-bootstrap-skeleton myblog 2$ cd myblog 3$ git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-theme-bootstrap 4$ sed -i &#34;s/theme:.*/theme: hugo-theme-bootstrap/g&#34; config/_default/config.yaml 5$ rm go.mod go.sum 6$ hugo mod npm pack 7$ npm install 8$ hugo server If you&rsquo;re using Windows, use xcopy .]]></description>
+    </item>
+    
+    <item>
+      <title>Image Viewer</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/image-viewer/</link>
+      <pubDate>Fri, 03 Dec 2021 20:46:50 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/image-viewer/</guid>
+      <description><![CDATA[<p>Image viewer is an image gallery, it will be shown up when you click a non-linkable image.</p>
+<p>It also provides many tools, such as zoom in, zoom out and rotate.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Look and Feel</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/look-and-feel/</link>
+      <pubDate>Fri, 03 Dec 2021 19:42:57 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/look-and-feel/</guid>
+      <description><![CDATA[<p>By default, a site using this theme has the default fonts, colors, and general look and feel.
+However, the default scheme cannot satisfy everyone, but don&rsquo;t worry, you can easily override the theme defaults, such as palette colors, fonts, syntax highlighting.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Progressive Web App</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/pwa/</link>
+      <pubDate>Fri, 03 Dec 2021 19:39:01 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/pwa/</guid>
+      <description><![CDATA[<p>PWAs(<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="_blank" rel="noopener noreferrer">Progressive web apps<i class="fas fa-external-link-square-alt ms-1"></i></a>) are web apps developed using a number of specific technologies and standard patterns to allow them to take advantage of both web and native app features.</p>
+<p>HBS provides some basic features, such as install site to home screen, precache files and available offline.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Archive Layout</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/layouts/archives/</link>
+      <pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/layouts/archives/</guid>
+      <description><![CDATA[<p>The archive page is a collection of posts grouped by year.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Search Layout</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/layouts/search/</link>
+      <pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/layouts/search/</guid>
+      <description><![CDATA[<p>It may be difficult for readers to retrieve an article in the case if there are many articles in your site, therefore, we added the search feature.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Author Widget</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/widgets/author/</link>
+      <pubDate>Fri, 03 Dec 2021 11:10:19 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/widgets/author/</guid>
+      <description><![CDATA[<p>The author widget is located in the sidebar, in order to introduce yourself briefly.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Reward Widget</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/widgets/reward/</link>
+      <pubDate>Fri, 03 Dec 2021 11:10:19 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/widgets/reward/</guid>
+      <description><![CDATA[<p>The reward widget, AKA buy me a coffee widget, gives the readers a way to support a creator through the use of donations or tips.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Social Links</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/widgets/social-links/</link>
+      <pubDate>Thu, 02 Dec 2021 16:27:45 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/widgets/social-links/</guid>
+      <description><![CDATA[<p>The <code>social</code> parameter is a set of key value pairs of social links that mapping from platform to their user identifier.
+It supports many popular social platforms, such as Twitter, Facebook, Reddit, GitHub.
+This article lists all supported platforms and how to use them.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Contact Form</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/layouts/contact/</link>
+      <pubDate>Tue, 30 Nov 2021 23:56:00 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/layouts/contact/</guid>
+      <description><![CDATA[<p>We can put our email address on <a href="https://razonyang.github.io/hbs-test/en/docs/widgets/social-links/">social links</a> so that readers can contact us. Unfortunately, emails will be more or less treated as spam and even filtered.
+Therefore, we bring a feature called contact form.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Custom Assets</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/advanced/custom-assets/</link>
+      <pubDate>Sun, 28 Nov 2021 16:00:49 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/advanced/custom-assets/</guid>
+      <description><![CDATA[<p>As a customizable theme, it provides the ability to customize assets, whether it is customizing CSS and JS or introducing third-party CSS and JS.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Comments Widget</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/widgets/comments/</link>
+      <pubDate>Sat, 27 Nov 2021 19:54:29 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/widgets/comments/</guid>
+      <description><![CDATA[<p><a href="https://disqus.com/" target="_blank" rel="noopener noreferrer">Disqus<i class="fas fa-external-link-square-alt ms-1"></i></a>, <a href="https://utteranc.es/" target="_blank" rel="noopener noreferrer">Utterances<i class="fas fa-external-link-square-alt ms-1"></i></a> and <a href="https://giscus.app/" target="_blank" rel="noopener noreferrer">Giscus<i class="fas fa-external-link-square-alt ms-1"></i></a> comments widgets are supported out of box.
+This article shows how to configure them and even customize your own comment widgets.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Get Involved</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/get-involved/</link>
+      <pubDate>Sat, 27 Nov 2021 19:54:29 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/get-involved/</guid>
+      <description><![CDATA[<p>We are happy to listen to your opinions and feedback, and welcome you to get involved.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Hooks</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/advanced/hooks/</link>
+      <pubDate>Sat, 27 Nov 2021 19:54:29 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/advanced/hooks/</guid>
+      <description><![CDATA[<p>As a flexible theme, it should have the ability to customize code and integrate third-party services. Therefore, we brought a feature called hook.</p>
+<p>In this article, we will introduce all hooks and provide some use cases.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Page Parameters</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/configuration/page-params/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/configuration/page-params/</guid>
+      <description><![CDATA[<p>Page parameters are located in page&rsquo;s <a href="https://gohugo.io/content-management/front-matter/" target="_blank" rel="noopener noreferrer">Front Matter<i class="fas fa-external-link-square-alt ms-1"></i></a>.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Site Configuration</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/configuration/site/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/configuration/site/</guid>
+      <description><![CDATA[<p>The site configuration is located in <code>config/_default/config.toml</code> by default.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Site Parameters</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/configuration/site-params/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/configuration/site-params/</guid>
+      <description><![CDATA[<p>The site parameters are located in <code>config/_default/params.toml</code> by default.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Configuration Structure</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/configuration/structure/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/configuration/structure/</guid>
+      <description><![CDATA[<p>As the example site shown, we use <a href="https://gohugo.io/getting-started/configuration/#configuration-directory" target="_blank" rel="noopener noreferrer">Configuration Directory<i class="fas fa-external-link-square-alt ms-1"></i></a> to maintain easier organization and environment specific settings, it is especially useful on multilingual sites.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Diagram Guide</title>
+      <link>https://razonyang.github.io/hbs-test/en/posts/diagram/</link>
+      <pubDate>Wed, 01 Sep 2021 11:36:50 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/posts/diagram/</guid>
+      <description><![CDATA[<p>This article offers a sample of basic diagram usage that can be used in Hugo content files.</p>
+<p>Please see also <a href="https://mermaid-js.github.io" target="_blank" rel="noopener noreferrer">Mermaid<i class="fas fa-external-link-square-alt ms-1"></i></a>.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Image Processing</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/image-processing/</link>
+      <pubDate>Sun, 15 Aug 2021 14:19:06 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/image-processing/</guid>
+      <description><![CDATA[<p>This article offers some use cases for showing how to resize, crop, fit, fill and align images.</p>]]></description><enclosure url="https://razonyang.github.io/hbs-test/en/docs/image-processing/featured-sample.webp" length="498412" type="image/webp" />
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://razonyang.github.io/hbs-test/en/posts/markdown-syntax/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/posts/markdown-syntax/</guid>
+      <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>]]></description>
+    <enclosure url="https://razonyang.github.io/hbs-test/images/markdown.png" length="279937" type="image/.png" />
+    </item>
+    
+    <item>
+      <title>Alert Shortcode</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/shortcodes/alert/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/shortcodes/alert/</guid>
+      <description><![CDATA[<p>This article shows how to use the <code>alert</code> shortcode.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Media Shortcodes</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/shortcodes/media/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/shortcodes/media/</guid>
+      <description><![CDATA[<p>A detailed description of media shortcodes, such as Bilibili, Tencent, Youku, iQiyi and Netease Music.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Online IDE Shortcodes</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/shortcodes/online-ide/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/shortcodes/online-ide/</guid>
+      <description><![CDATA[<p>A detailed description of online IDE shortcodes, such as JSFiddle, CodePen, JSRun.</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

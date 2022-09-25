@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Configuration on Hugo Theme Bootstrap Docs v1</title>
+    <link>https://razonyang.github.io/hbs-test/en/docs/configuration/</link>
+    <description>Recent content in Configuration on Hugo Theme Bootstrap Docs v1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2016-2022 Razon Yang. All Rights Reserved.
+</copyright><atom:link href="https://razonyang.github.io/hbs-test/en/docs/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multilingual Mode</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/configuration/multilangual/</link>
+      <pubDate>Wed, 27 Jul 2022 08:06:06 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/configuration/multilangual/</guid>
+      <description><![CDATA[<p>HBS suppports multiple languages out of box, such as English, Simplified Chinese, Traditional Chinese, French, Russian etc.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Menu</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/configuration/menu/</link>
+      <pubDate>Thu, 16 Dec 2021 17:25:20 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/configuration/menu/</guid>
+      <description><![CDATA[<p>We predefined two types of menus: <code>main</code> and <code>footer</code>, represents the top app bar menus and the footer menus, respectively.
+This article will briefly introduce how to use the menus.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Page Parameters</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/configuration/page-params/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/configuration/page-params/</guid>
+      <description><![CDATA[<p>Page parameters are located in page&rsquo;s <a href="https://gohugo.io/content-management/front-matter/" target="_blank" rel="noopener noreferrer">Front Matter<i class="fas fa-external-link-square-alt ms-1"></i></a>.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Site Configuration</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/configuration/site/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/configuration/site/</guid>
+      <description><![CDATA[<p>The site configuration is located in <code>config/_default/config.toml</code> by default.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Site Parameters</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/configuration/site-params/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/configuration/site-params/</guid>
+      <description><![CDATA[<p>The site parameters are located in <code>config/_default/params.toml</code> by default.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Configuration Structure</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/configuration/structure/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/configuration/structure/</guid>
+      <description><![CDATA[<p>As the example site shown, we use <a href="https://gohugo.io/getting-started/configuration/#configuration-directory" target="_blank" rel="noopener noreferrer">Configuration Directory<i class="fas fa-external-link-square-alt ms-1"></i></a> to maintain easier organization and environment specific settings, it is especially useful on multilingual sites.</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

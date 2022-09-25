@@ -1,0 +1,969 @@
+<!doctype html>
+<html class="position-relative" itemscope itemtype="http://schema.org/WebPage" lang="zh-hant"
+  data-bs-theme="auto" data-palette="purple">
+  <head><script src="https://razonyang.github.io/hbs-test/assets/init/bundle.min.4930cc0275492c9ec3ee5feb47ec6b4a7d65231d6f6992031fe4d71942c382ee.js" integrity="sha256-STDMAnVJLJ7D7l/rR&#43;xrSn1lIx1vaZIDH&#43;TXGULDgu4=" crossorigin="anonymous"></script>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>小部件 - Hugo Bootstrap</title>
+    <link rel="icon" href="https://razonyang.github.io/hbs-test/favicon_huc1d2ba7c7d6d5aa3e01f2f328b911c53_11507_16x16_resize_box_3.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="https://razonyang.github.io/hbs-test/favicon_huc1d2ba7c7d6d5aa3e01f2f328b911c53_11507_32x32_resize_box_3.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="https://razonyang.github.io/hbs-test/favicon_huc1d2ba7c7d6d5aa3e01f2f328b911c53_11507_180x180_resize_box_3.png" sizes="180x180" type="image/png">
+    <link rel="icon" href="https://razonyang.github.io/hbs-test/favicon_huc1d2ba7c7d6d5aa3e01f2f328b911c53_11507_150x150_resize_box_3.png" sizes="150x150" type="image/png">
+    <link rel="icon" href="https://razonyang.github.io/hbs-test/favicon_huc1d2ba7c7d6d5aa3e01f2f328b911c53_11507_192x192_resize_box_3.png" sizes="192x192" type="image/png">
+<link rel="mask-icon" href="https://razonyang.github.io/hbs-test/safari-pinned-tab.svg" color="#6f42c1">
+<meta name="keywords" content="Hugo, Bootstrap, 博客主題" />
+<meta name="description" content="一個快速、響應式和功能豐富的 Hugo 博客主題" />
+    <meta name="robots" content="index, follow" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="小部件"/>
+<meta name="twitter:description" content="一個快速、響應式和功能豐富的 Hugo 博客主題"/>
+<meta name="twitter:site" content="@yourtwitterusername"/>
+<meta property="og:title" content="小部件" />
+<meta property="og:description" content="一個快速、響應式和功能豐富的 Hugo 博客主題" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/" /><meta property="og:site_name" content="Hugo Bootstrap" />
+
+<meta itemprop="name" content="小部件">
+<meta itemprop="description" content="一個快速、響應式和功能豐富的 Hugo 博客主題">
+  <meta property="og:image" content="https://razonyang.github.io/hbs-test/images/logo.png"/>
+  <meta name="twitter:image" content="https://razonyang.github.io/hbs-test/images/logo.png"/>
+  <link rel="manifest" href="https://razonyang.github.io/hbs-test/zh-hant/manifest.json">
+<link rel="alternate" hreflang="en" href="https://razonyang.github.io/hbs-test/en/docs/widgets/" />
+<link rel="alternate" hreflang="zh-hans" href="https://razonyang.github.io/hbs-test/zh-hans/docs/widgets/" />
+<link rel="alternate" type="application/rss+xml" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/index.xml" title="Hugo Bootstrap" /><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7827859788508375"></script>
+<link data-precache rel="stylesheet" href="https://razonyang.github.io/hbs-test/assets/main/bundle.min.7be937055456cd9f64be68ed7d69f844bbdb6908aecda86265dfbdb1f73dda8e.css" integrity="sha256-e+k3BVRWzZ9kvmjtfWn4RLvbaQiuzahiZd+9sfc92o4=" crossorigin="anonymous">
+
+    <link data-precache rel="stylesheet" href="https://razonyang.github.io/hbs-test/assets/viewer/bundle.min.6d0fc65b8b058ac563091dc5c36f61afba5dd705058680aa24f1d5a3bcf0064d.css" integrity="sha256-bQ/GW4sFisVjCR3Fw29hr7pd1wUFhoCqJPHVo7zwBk0=" crossorigin="anonymous">
+    <link data-precache rel="stylesheet" href="https://razonyang.github.io/hbs-test/assets/docsearch/bundle.min.79094070638113c3706671cfb1dcb4c27dde31e6e924a13f7ea6a6b3cd170f5c.css" integrity="sha256-eQlAcGOBE8NwZnHPsdy0wn3eMebpJKE/fqams80XD1w=" crossorigin="anonymous">
+
+
+</head>
+  <body><header>
+  
+<nav class="top-app-bar shadow navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDocsNav"
+      aria-controls="offcanvasDocsCatalog" aria-expanded="false" aria-label="Toggle docs navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+<a class="navbar-brand d-flex align-items-center flex-grow-1 flex-lg-grow-0 text-lg-start ms-2 ms-lg-0 mx-auto me-lg-2" href="https://razonyang.github.io/hbs-test/zh-hant/">
+    <picture><img class="logo " alt="Logo" src="https://razonyang.github.io/hbs-test/images/logo.webp" loading="lazy" width="500" height="500" />
+</picture>Docs v1
+</a>
+    <button class="navbar-toggler order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarMenus"
+      aria-controls="navbarMenus" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-ellipsis-h"></i>
+    </button>
+    <div class="offcanvas-lg offcanvas-end flex-grow-1" data-bs-scroll="true" tabindex="-1" id="navbarMenus" aria-labelledby="navbarMenusLabel">
+      <div class="offcanvas-header px-4 pb-0">
+        <h5 class="offcanvas-title" id="navbarMenusLabel">Hugo Bootstrap</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" data-bs-target="#navbarMenus" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body p-4 pt-0 p-lg-0">
+        <hr class="d-lg-none">
+        <ul class="navbar-nav flex-row flex-wrap align-items-center me-auto"><li class="nav-item col-6 col-lg-auto">
+            <a class="nav-link py-2 px-0 px-lg-2" href="https://hbs.razonyang.com/" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-home me-1"></i>Home
+            </a>
+          </li>
+          <li class="nav-item col-6 col-lg-auto dropdown px-0">
+            <a href="#"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdownBlog" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-fw fa-blog me-1"></i>Blog
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog" data-bs-popper="none">
+              <li>
+                <a class="dropdown-item text-wrap text-lg-nowrap"
+                  href="https://razonyang.github.io/hbs-test/zh-hant/archives/">
+                  <i class="fas fa-fw fa-archive me-1"></i>歸檔
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item text-wrap text-lg-nowrap"
+                  href="https://razonyang.github.io/hbs-test/zh-hant/series/">
+                  <i class="fas fa-fw fa-columns me-1"></i>專欄
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item text-wrap text-lg-nowrap"
+                  href="https://razonyang.github.io/hbs-test/zh-hant/categories/">
+                  <i class="fas fa-fw fa-folder me-1"></i>分類
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item text-wrap text-lg-nowrap"
+                  href="https://razonyang.github.io/hbs-test/zh-hant/tags/">
+                  <i class="fas fa-fw fa-tags me-1"></i>標籤
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item text-wrap text-lg-nowrap"
+                  href="https://razonyang.github.io/hbs-test/zh-hant/authors/">
+                  <i class="fas fa-fw fa-user me-1"></i>作者
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item col-6 col-lg-auto dropdown px-0">
+            <a href="#"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdownSupport" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-fw fa-info-circle me-1"></i>Support
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownSupport" data-bs-popper="none">
+              <li>
+                <a class="dropdown-item text-wrap text-lg-nowrap"
+                  href="https://github.com/razonyang/hugo-theme-bootstrap" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-fw fa-github me-1"></i>Repository
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item text-wrap text-lg-nowrap"
+                  href="https://github.com/razonyang/hugo-theme-bootstrap/discussions/new" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-fw fa-comments me-1"></i>Discussions
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item text-wrap text-lg-nowrap"
+                  href="https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=bug_report.yml" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-fw fa-bug me-1"></i>Bug Report
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item text-wrap text-lg-nowrap"
+                  href="https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=feature_request.yml" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-fw fa-lightbulb me-1"></i>Features Request
+                </a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item text-wrap text-lg-nowrap"
+                  href="https://razonyang.github.io/hbs-test/zh-hant/docs/get-involved/">
+                  <i class="fas fa-handshake fa-fw me-1"></i>參與我們
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item text-wrap text-lg-nowrap"
+                  href="https://razonyang.github.io/hbs-test/zh-hant/faq/">
+                  <i class="fas fa-fw fa-question-circle me-1"></i>常見問題
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <hr class="d-lg-none">
+  <form class="search-bar ms-auto my-1" action="https://razonyang.github.io/hbs-test/zh-hant/search/" novalidate>
+    <div class="input-group input-group-sm align-items-center">
+      <span class="btn btn-search disabled position-absolute left-0 border-0">
+        <i class="fas fa-fw fa-search fa-lg"></i>
+      </span>
+      <input class="py-2 form-control rounded search-input" name="q" type="search" aria-label="Search" required>
+    </div>
+  </form><hr class="d-lg-none">
+        <ul class="navbar-nav flex-row flex-wrap align-items-center ms-md-auto">
+<li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
+
+
+<nav class="social-links nav justify-content-center flex-row">
+      <a class="nav-link social-link col-6 col-lg-auto p-1" target="_blank" href="https://github.com/razonyang/hugo-theme-bootstrap" title="GitHub" rel="noopener noreferrer">
+        <i class="fa-fw fab fa-github"></i>
+        <span class="ms-1 d-lg-none">Github</span>
+      </a>
+      <a class="nav-link social-link col-6 col-lg-auto p-1" target="_blank" href="https://www.patreon.com/razonyang" title="Patreon" rel="noopener noreferrer">
+        <i class="fa-fw fab fa-patreon"></i>
+        <span class="ms-1 d-lg-none">Patreon</span>
+      </a>
+      <a class="nav-link social-link col-6 col-lg-auto p-1" target="_blank" href="https://www.paypal.com/paypalme/razonyang" title="PayPal" rel="noopener noreferrer">
+        <i class="fa-fw fab fa-paypal"></i>
+        <span class="ms-1 d-lg-none">Paypal</span>
+      </a>
+  <a class="nav-link social-link col-6 col-lg-auto p-1" target="_blank" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/index.xml" title="RSS" rel="noopener noreferrer">
+    <i class="fas fa-fw fa-rss"></i>
+    <span class="ms-1 d-lg-none">RSS</span>
+  </a>
+</nav>
+
+</li>
+<li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
+  <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
+  <hr class="d-lg-none my-2">
+</li>
+<li class="nav-item dropdown py-1 py-lg-1 col-6 col-lg-auto">
+    <a class="nav-link px-0 px-lg-1" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-fw fa-globe"></i>
+        <span class="d-lg-none">語言</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+        <li>
+        <a class="dropdown-item" href="https://razonyang.github.io/hbs-test/en/">
+            English
+        </a>
+        </li>
+        <li>
+        <a class="dropdown-item" href="https://razonyang.github.io/hbs-test/fr/">
+            Français
+        </a>
+        </li>
+        <li>
+        <a class="dropdown-item active" href="https://razonyang.github.io/hbs-test/zh-hant/">
+            繁體中文
+        </a>
+        </li>
+        <li>
+        <a class="dropdown-item" href="https://razonyang.github.io/hbs-test/zh-hans/">
+            简体中文
+        </a>
+        </li>
+        <li>
+        <a class="dropdown-item" href="https://razonyang.github.io/hbs-test/ar/">
+            العربية
+        </a>
+        </li>
+        <li>
+        <a class="dropdown-item" href="https://razonyang.github.io/hbs-test/ja/">
+            日本語
+        </a>
+        </li></ul>
+</li>
+<li class="nav-item py-1 col-12 col-lg-auto">
+  <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
+  <hr class="d-lg-none my-2">
+</li>
+<li class="nav-item dropdown col-6 col-lg-auto">
+    <a class="nav-link px-0 py-2 px-lg-1" href="#" id="fontSizeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-fw fa-font"></i>
+        <span class="d-lg-none">字體大小</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="fontSizeDropdown">
+        <li>
+            <button class="font-size-item dropdown-item" data-size="xs">
+                特小號
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item" data-size="sm">
+                小號
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item active" data-size="md">
+                中等
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item" data-size="lg">
+                大號
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item" data-size="xl">
+                特大號
+            </button>
+        </li>
+    </ul>
+</li>
+<li class="nav-item dropdown col-6 col-lg-auto">
+    <a class="nav-link px-0 py-2 px-lg-1" href="#" id="paletteDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-fw fa-palette"></i>
+        <span class="d-lg-none">配色</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end px-2" aria-labelledby="paletteDropdown">
+        <div class="row">
+            <li class="col-4 my-1">
+                <a role="button" id="palette-blue" aria-label="藍色"
+                    class="btn btn-sm w-100 palette text-bg-blue" data-palette="blue">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-blue-gray" aria-label="藍灰色"
+                    class="btn btn-sm w-100 palette text-bg-blue-gray" data-palette="blue-gray">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-brown" aria-label="棕色"
+                    class="btn btn-sm w-100 palette text-bg-brown" data-palette="brown">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-cyan" aria-label="青色"
+                    class="btn btn-sm w-100 palette text-bg-cyan" data-palette="cyan">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-green" aria-label="綠色"
+                    class="btn btn-sm w-100 palette text-bg-green" data-palette="green">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-indigo" aria-label="靛青色"
+                    class="btn btn-sm w-100 palette text-bg-indigo" data-palette="indigo">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-orange" aria-label="橙色"
+                    class="btn btn-sm w-100 palette text-bg-orange" data-palette="orange">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-pink" aria-label="粉色"
+                    class="btn btn-sm w-100 palette text-bg-pink" data-palette="pink">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-purple" aria-label="紫色"
+                    class="btn btn-sm w-100 palette text-bg-purple" data-palette="purple">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-red" aria-label="紅色"
+                    class="btn btn-sm w-100 palette text-bg-red" data-palette="red">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-teal" aria-label="藍綠色"
+                    class="btn btn-sm w-100 palette text-bg-teal" data-palette="teal">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-yellow" aria-label="黃色"
+                    class="btn btn-sm w-100 palette text-bg-yellow" data-palette="yellow">
+                </a>
+            </li>
+        </div>
+    </ul>
+</li>
+<li class="nav-item dropdown col-6 col-lg-auto">
+    <a class="nav-link px-0 py-2 px-lg-1" href="#" id="modeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="mode-icon fas fa-fw fa-adjust" id="modeIcon"></i>
+        <span class="d-lg-none">模式</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="modeDropdown">
+        <li class="mode-item" data-color-mode="light" data-icon="sun">
+            <button class="dropdown-item">
+                <i class="mode-icon fas fa-fw fa-sun"></i> Light
+            </button>
+        </li>
+        <li class="mode-item" data-color-mode="dark" data-icon="moon">
+            <button class="dropdown-item">
+                <i class="mode-icon fas fa-fw fa-moon"></i> Dark
+            </button>
+        </li>
+        <li class="mode-item active" data-color-mode="auto" data-icon="adjust">
+            <button class="dropdown-item">
+                <i class="mode-icon fas fa-fw fa-adjust"></i> Auto
+            </button>
+        </li>
+    </ul>
+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+    <main class="container">
+      <div class="row content"><noscript>
+    <div class="alert alert-danger" role="alert">你的瀏覽器不支持 JavaScript。</div>
+</noscript>
+<aside class="docs-nav col-lg-2" tabindex="-1" data-bs-hide="focusout">
+  <div class="offcanvas-lg offcanvas-start" id="offcanvasDocsNav" aria-labelledby="offcanvasDocsNavLabel">
+    <div class="offcanvas-header border-bottom">
+      <h5 class="offcanvas-title" id="offcanvasDocsNavLabel">Browse docs</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#offcanvasDocsNav"></button>
+    </div>
+    <div class="offcanvas-body pt-2 flex-column"><div class="mb-3 pe-3">
+    <select class="form-select" aria-label="Docs Versions" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+        <option value="" selected>v1</option>
+        <option value="https://hbs.razonyang.com/v0/">v0</option>
+    </select>
+</div>
+<ul class="list-unstyled mb-2 w-100 pe-3"><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3">
+            <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/getting-started/"><span class="docs-nav-title-icon me-1"><i class="fas fa-book fa-fw"></i></span><span class="docs-nav-title">快速入門</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-7917b3dec92295d13dad091de1c4469b" aria-expanded="false" aria-controls="nav-7917b3dec92295d13dad091de1c4469b">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-7917b3dec92295d13dad091de1c4469b">
+            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/getting-started/introduction/"><span class="docs-nav-title">簡介</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/getting-started/prerequisites/"><span class="docs-nav-title">先決條件</span></a>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3">
+            <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/getting-started/installation/"><span class="docs-nav-title">安裝</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-b9a23e77cfbb9890125706143ef994fa" aria-expanded="false" aria-controls="nav-b9a23e77cfbb9890125706143ef994fa">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-b9a23e77cfbb9890125706143ef994fa">
+            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/getting-started/installation/starter-template/" target="_blank"><span class="docs-nav-title">Starter Template</span><i class="ms-1 fas fa-external-link-square-alt"></i></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/getting-started/installation/hugo-module/"><span class="docs-nav-title">Hugo Module</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/getting-started/installation/git-submodule/"><span class="docs-nav-title">Git Submodule</span></a>
+        </li></ul>
+            </ul>
+          </div>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/getting-started/upgradation/"><span class="docs-nav-title">升級</span></a>
+        </li></ul>
+            </ul>
+          </div>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3">
+            <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/configuration/"><span class="docs-nav-title-icon me-1"><i class="fas fa-cog fa-fw"></i></span><span class="docs-nav-title">配置</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-8cffe7c5577b391f4960484b4be95489" aria-expanded="false" aria-controls="nav-8cffe7c5577b391f4960484b4be95489">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-8cffe7c5577b391f4960484b4be95489">
+            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/configuration/structure/"><span class="docs-nav-title">結構</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/configuration/site/"><span class="docs-nav-title">配置</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/configuration/site-params/"><span class="docs-nav-title">站點參數</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/configuration/page-params/"><span class="docs-nav-title">頁面參數</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/configuration/multilangual/"><span class="docs-nav-title">多語言</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/configuration/menu/"><span class="docs-nav-title">菜單</span></a>
+        </li></ul>
+            </ul>
+          </div>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/content/"><span class="docs-nav-title-icon me-1"><i class="fas fa-newspaper fa-fw"></i></span><span class="docs-nav-title">內容</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/look-and-feel/"><span class="docs-nav-title-icon me-1"><i class="fas fa-palette fa-fw"></i></span><span class="docs-nav-title">觀感</span></a>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3">
+            <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/deployment/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-cloud-upload-alt"></i></span><span class="docs-nav-title">部署</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-97f5b91d769bfae7c0bdf153f9b91983" aria-expanded="false" aria-controls="nav-97f5b91d769bfae7c0bdf153f9b91983">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-97f5b91d769bfae7c0bdf153f9b91983">
+            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/deployment/overview/"><span class="docs-nav-title">概覽</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/deployment/cloudflare-pages/"><span class="docs-nav-title">Cloudflare Pages</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/deployment/github-pages/"><span class="docs-nav-title">Github Pages</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/deployment/netlify/"><span class="docs-nav-title">Netlify</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/deployment/docker/"><span class="docs-nav-title">Docker</span></a>
+        </li></ul>
+            </ul>
+          </div>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/image-viewer/"><span class="docs-nav-title-icon me-1"><i class="fas fa-images fa-fw"></i></span><span class="docs-nav-title">圖片查看器</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/image-processing/"><span class="docs-nav-title-icon me-1"><i class="fas fa-image fa-fw"></i></span><span class="docs-nav-title">圖像處理</span></a>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3 text-primary">
+            <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/"><span class="docs-nav-title-icon me-1"><i class="fas fa-cubes fa-fw"></i></span><span class="docs-nav-title">小部件</span></a>
+            <a class="btn-toggle ms-1" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-321724c46599463125195c9744ac591a" aria-expanded="true" aria-controls="nav-321724c46599463125195c9744ac591a">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse  show border-primary" id="nav-321724c46599463125195c9744ac591a">
+            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/repository/"><span class="docs-nav-title">Repository Widget</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/reward/"><span class="docs-nav-title">打賞小部件</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/author/"><span class="docs-nav-title">作者小部件</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/social-links/"><span class="docs-nav-title">社交連結</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/comments/"><span class="docs-nav-title">評論小部件</span></a>
+        </li></ul>
+            </ul>
+          </div>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3">
+            <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/shortcodes/"><span class="docs-nav-title-icon me-1"><i class="fas fa-code fa-fw"></i></span><span class="docs-nav-title">Shortcode</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-5f3d9dc1a82f155ac04b16d100c1817c" aria-expanded="false" aria-controls="nav-5f3d9dc1a82f155ac04b16d100c1817c">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-5f3d9dc1a82f155ac04b16d100c1817c">
+            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/shortcodes/alert/"><span class="docs-nav-title">Alert</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/shortcodes/code-toggle/"><span class="docs-nav-title">Code Toggle</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/shortcodes/text/"><span class="docs-nav-title">文本</span></a>
+        </li></ul>
+            </ul>
+          </div>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3">
+            <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/layouts/"><span class="docs-nav-title-icon me-1"><i class="fas fa-columns fa-fw"></i></span><span class="docs-nav-title">頁面佈局</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-a8452825e163f4b8fb506c092e6911b1" aria-expanded="false" aria-controls="nav-a8452825e163f4b8fb506c092e6911b1">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-a8452825e163f4b8fb506c092e6911b1">
+            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/layouts/docs/"><span class="docs-nav-title">Docs 佈局</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/layouts/faq/"><span class="docs-nav-title">FAQ 頁面</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/layouts/search/"><span class="docs-nav-title">搜索頁面</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/layouts/landing/"><span class="docs-nav-title">落地頁</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/layouts/contact/"><span class="docs-nav-title">聯繫表單</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/layouts/archives/"><span class="docs-nav-title">歸檔頁面</span></a>
+        </li></ul>
+            </ul>
+          </div>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/pwa/"><span class="docs-nav-title-icon me-1"><i class="fas fa-th-large fa-fw"></i></span><span class="docs-nav-title">PWA</span></a>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3">
+            <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/advanced/"><span class="docs-nav-title-icon me-1"><i class="fas fa-terminal fa-fw"></i></span><span class="docs-nav-title">進階</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-8ec2441398fb7088ee73071a9d360c5a" aria-expanded="false" aria-controls="nav-8ec2441398fb7088ee73071a9d360c5a">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-8ec2441398fb7088ee73071a9d360c5a">
+            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/advanced/purgecss/"><span class="docs-nav-title">PurgeCSS</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/advanced/scss-variables/"><span class="docs-nav-title">SCSS 變量</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/advanced/snackbar/"><span class="docs-nav-title">Snackbar</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/advanced/layouts-overriding/"><span class="docs-nav-title">布局覆蓋</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/advanced/custom-assets/"><span class="docs-nav-title">自定義資源</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/advanced/events/"><span class="docs-nav-title">事件</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/advanced/performance/"><span class="docs-nav-title">性能</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/advanced/hooks/"><span class="docs-nav-title">鉤子</span></a>
+        </li></ul>
+            </ul>
+          </div>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center ms-3">
+            <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/topics/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-lightbulb"></i></span><span class="docs-nav-title">話題</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-fff13f11a9c95fa6d790d8782b5d8823" aria-expanded="false" aria-controls="nav-fff13f11a9c95fa6d790d8782b5d8823">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-fff13f11a9c95fa6d790d8782b5d8823">
+            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100"><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/topics/sticky-widgets/"><span class="docs-nav-title">粘性小部件</span></a>
+        </li></ul>
+            </ul>
+          </div>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/troubleshooting/"><span class="docs-nav-title-icon me-1"><i class="fas fa-bug fa-fw"></i></span><span class="docs-nav-title">問題排查</span></a>
+        </li><li class="mb-2 py-1 ms-3" tabindex="-1">
+          <a class="docs-nav-link" href="https://razonyang.github.io/hbs-test/zh-hant/docs/get-involved/"><span class="docs-nav-title-icon me-1"><i class="fas fa-handshake fa-fw"></i></span><span class="docs-nav-title">參與我們</span></a>
+        </li></ul></div>
+  </div>
+</aside><div class="col-lg-7 ms-auto">
+  <div class="container"><nav class="row card component" aria-label="breadcrumb">
+  <div class="card-body pb-0">
+    <ol class="breadcrumb"><li class="breadcrumb-item text-surface"><a href="https://razonyang.github.io/hbs-test/zh-hant/">主頁</a></li><li class="breadcrumb-item text-surface"><a href="https://razonyang.github.io/hbs-test/zh-hant/docs/">文檔</a></li><li class="breadcrumb-item active">小部件</li></ol>
+  </div>
+</nav><div class="posts mb-4"><article class="row card post component">
+  <div class="card-header">
+    <h2 class="card-title post-title my-2 fs-4">
+      <a href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/repository/">Repository Widget</a>
+    </h2>
+  </div>
+  <div class="card-body"><picture>
+    <source srcset="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/repository/featured_hu76877a45c37a446abe91400fb841d2b4_10492_500x0_resize_box_3.png" media="(max-width: 576px)" height="376" width="500">
+    <img class="img-fluid" height="135" width="180" alt="featured.png" src="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/repository/featured_hu76877a45c37a446abe91400fb841d2b4_10492_180x0_resize_box_3.png" data-src="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/repository/featured.png" loading="lazy"/>
+  </picture><div class="post-meta mb-3">
+  <span class="post-date me-1 mb-1" title="創建於 2022-09-09 21:06:19 &#43;0800 CST，更新於 2022-09-09 21:49:55 &#43;0800 CST。">2022年9月9日</span><span class="post-reading-time me-1 mb-1">1 分鐘閱讀</span><a href="https://razonyang.github.io/hbs-test/zh-hant/authors/razonyang/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-author">
+      <i class="fas fa-fw fa-user me-1"></i>Razon Yang</a><a href="https://razonyang.github.io/hbs-test/zh-hant/categories/widget/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
+      <i class="fas fa-fw fa-folder me-1"></i>Widget</a><a href="https://razonyang.github.io/hbs-test/zh-hant/series/%E6%96%87%E6%AA%94/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-series">
+      <i class="fas fa-fw fa-columns me-1"></i>文檔</a><a href="https://razonyang.github.io/hbs-test/zh-hant/tags/github/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">GitHub</a><a href="https://razonyang.github.io/hbs-test/zh-hant/tags/repository/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">Repository</a>
+</div>
+
+    <div class="post-summary"><p>The repository widget shows the commit information about current page, it&rsquo;s useful for users to view or edit the source code.</p><div><a class="btn btn-sm btn-outline-primary btn-read-more" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/repository/">閱讀更多</a></div>
+    </div>
+  </div>
+</article>
+<article class="row card post component">
+  <div class="card-header">
+    <h2 class="card-title post-title my-2 fs-4">
+      <a href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/reward/">打賞小部件</a>
+    </h2>
+  </div>
+  <div class="card-body"><div class="post-meta mb-3">
+  <span class="post-date me-1 mb-1" title="創建於 2021-12-03 11:10:19 &#43;0800 CST，更新於 2022-07-22 15:51:26 &#43;0800 CST。">2021年12月3日</span><span class="post-reading-time me-1 mb-1">1 分鐘閱讀</span><a href="https://razonyang.github.io/hbs-test/zh-hant/authors/razonyang/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-author">
+      <i class="fas fa-fw fa-user me-1"></i>Razon Yang</a><a href="https://razonyang.github.io/hbs-test/zh-hant/categories/%E5%B0%8F%E9%83%A8%E4%BB%B6/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
+      <i class="fas fa-fw fa-folder me-1"></i>小部件</a><a href="https://razonyang.github.io/hbs-test/zh-hant/series/%E6%96%87%E6%AA%94/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-series">
+      <i class="fas fa-fw fa-columns me-1"></i>文檔</a>
+</div>
+
+    <div class="post-summary"><p>打賞小部件，又稱buy me a coffee小部件，其通過使用捐贈或小費，為讀者提供了一種支持創作者的筦道。</p><div><a class="btn btn-sm btn-outline-primary btn-read-more" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/reward/">閱讀更多</a></div>
+    </div>
+  </div>
+</article>
+<article class="row card post component">
+  <div class="card-header">
+    <h2 class="card-title post-title my-2 fs-4">
+      <a href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/author/">作者小部件</a>
+    </h2>
+  </div>
+  <div class="card-body"><div class="post-meta mb-3">
+  <span class="post-date me-1 mb-1" title="創建於 2021-12-03 11:10:19 &#43;0800 CST，更新於 2022-07-22 15:51:26 &#43;0800 CST。">2021年12月3日</span><span class="post-reading-time me-1 mb-1">1 分鐘閱讀</span><a href="https://razonyang.github.io/hbs-test/zh-hant/authors/razonyang/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-author">
+      <i class="fas fa-fw fa-user me-1"></i>Razon Yang</a><a href="https://razonyang.github.io/hbs-test/zh-hant/categories/%E5%B0%8F%E9%83%A8%E4%BB%B6/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
+      <i class="fas fa-fw fa-folder me-1"></i>小部件</a><a href="https://razonyang.github.io/hbs-test/zh-hant/series/%E6%96%87%E6%AA%94/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-series">
+      <i class="fas fa-fw fa-columns me-1"></i>文檔</a>
+</div>
+
+    <div class="post-summary"><p>作者小部件位於側邊欄，用於簡要地自我介紹。</p><div><a class="btn btn-sm btn-outline-primary btn-read-more" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/author/">閱讀更多</a></div>
+    </div>
+  </div>
+</article>
+<article class="row card post component">
+  <div class="card-header">
+    <h2 class="card-title post-title my-2 fs-4">
+      <a href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/social-links/">社交連結</a>
+    </h2>
+  </div>
+  <div class="card-body"><div class="post-meta mb-3">
+  <span class="post-date me-1 mb-1" title="創建於 2021-12-02 16:27:45 &#43;0800 CST，更新於 2022-07-28 10:17:39 &#43;0800 CST。">2021年12月2日</span><span class="post-reading-time me-1 mb-1">2 分鐘閱讀</span><a href="https://razonyang.github.io/hbs-test/zh-hant/authors/razonyang/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-author">
+      <i class="fas fa-fw fa-user me-1"></i>Razon Yang</a><a href="https://razonyang.github.io/hbs-test/zh-hant/categories/%E7%A4%BE%E4%BA%A4%E9%80%A3%E7%B5%90/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
+      <i class="fas fa-fw fa-folder me-1"></i>社交連結</a><a href="https://razonyang.github.io/hbs-test/zh-hant/series/%E6%96%87%E6%AA%94/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-series">
+      <i class="fas fa-fw fa-columns me-1"></i>文檔</a>
+</div>
+
+    <div class="post-summary"><p>社交連結<code>social</code>參數是一組平臺映射到用戶標識的鍵值對。
+其支持很多熱門的社交平臺，比如Twitter、Facebook、Reddit、GitHub。
+本文列出了所有受支持的平臺，及其使用方法。</p><div><a class="btn btn-sm btn-outline-primary btn-read-more" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/social-links/">閱讀更多</a></div>
+    </div>
+  </div>
+</article>
+<article class="row card post component">
+  <div class="card-header">
+    <h2 class="card-title post-title my-2 fs-4">
+      <a href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/comments/">評論小部件</a>
+    </h2>
+  </div>
+  <div class="card-body"><div class="post-meta mb-3">
+  <span class="post-date me-1 mb-1" title="創建於 2021-11-27 19:54:29 &#43;0800 CST，更新於 2022-09-22 08:44:11 &#43;0800 CST。">2021年11月27日</span><span class="post-reading-time me-1 mb-1">3 分鐘閱讀</span><a href="https://razonyang.github.io/hbs-test/zh-hant/authors/razonyang/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-author">
+      <i class="fas fa-fw fa-user me-1"></i>Razon Yang</a><a href="https://razonyang.github.io/hbs-test/zh-hant/categories/%E5%B0%8F%E9%83%A8%E4%BB%B6/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
+      <i class="fas fa-fw fa-folder me-1"></i>小部件</a><a href="https://razonyang.github.io/hbs-test/zh-hant/categories/%E8%A9%95%E8%AB%96/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
+      <i class="fas fa-fw fa-folder me-1"></i>評論</a><a href="https://razonyang.github.io/hbs-test/zh-hant/series/%E6%96%87%E6%AA%94/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-series">
+      <i class="fas fa-fw fa-columns me-1"></i>文檔</a><a href="https://razonyang.github.io/hbs-test/zh-hant/tags/disqus/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">Disqus</a><a href="https://razonyang.github.io/hbs-test/zh-hant/tags/giscus/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">Giscus</a><a href="https://razonyang.github.io/hbs-test/zh-hant/tags/staticman/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">Staticman</a><a href="https://razonyang.github.io/hbs-test/zh-hant/tags/utterances/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">Utterances</a>
+</div>
+
+    <div class="post-summary"><p><a href="https://disqus.com/" target="_blank" rel="noopener noreferrer">Disqus<i class="fas fa-external-link-square-alt ms-1"></i></a>、<a href="https://utteranc.es/" target="_blank" rel="noopener noreferrer">Utterances<i class="fas fa-external-link-square-alt ms-1"></i></a> 和 <a href="https://giscus.app/" target="_blank" rel="noopener noreferrer">Giscus<i class="fas fa-external-link-square-alt ms-1"></i></a> 評論小部件都是開箱即用的。本文將展示如何配置它們，甚至自定義你自己的評論小部件。</p><div><a class="btn btn-sm btn-outline-primary btn-read-more" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/comments/">閱讀更多</a></div>
+    </div>
+  </div>
+</article>
+</div><div class="row table-responsive mb-3"></div>
+</div>
+
+</div>
+<aside class="sidebar d-flex docs-sidebar col-lg-3 position-sticky order-lg-5">
+  <div class="container">
+    
+<div class="row component card">
+    <div class="card-body">
+        <form action="https://razonyang.github.io/hbs-test/zh-hant/search/">
+            <div class="input-group">
+                <input name="q" class="form-control rounded" placeholder="搜尋">
+                <button class="btn btn-sm btn-search position-absolute end-0 border-0 border-start border-secondary p-2" type="submit">
+                    <i class="fas fa-fw fa-search text-primary"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+    
+    <div class="accordion">
+    <div class="accordion-item docs-repo row card component">
+        <div class="card-header accordion-header" id="repo-header">
+            <h2 class="card-title fs-4 my-2 text-surface d-none d-lg-block">倉庫</h2>
+            <a
+                class="accordion-button d-lg-none mb-1 shadow-none p-0 bg-transparent"
+                type="button" data-bs-toggle="collapse" data-bs-target="#repo" aria-expanded="true" aria-controls="repo">
+                倉庫
+            </a>
+        </div>
+        <div class="card-body collapse accordion-collapse accordion-body text-secondary-on-surface d-lg-block show" id="repo" aria-labelledby="repo-header">
+            <ul class="list-unstyled"><li class="mb-1">
+                    <a href="https://github.com/razonyang/hugo-theme-bootstrap/blob/master/exampleSite/content/docs/widgets/_index.zh-hant.md" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-fw fa-file-archive"></i> 查看源代碼
+                    </a>
+                </li>
+                <li class="mb-1">
+                    <a href="https://github.com/razonyang/hugo-theme-bootstrap/edit/master/exampleSite/content/docs/widgets/_index.zh-hant.md" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-fw fa-edit"></i> 編輯當前頁
+                    </a>
+                </li><li class="mb-1">
+                    <i class="fas fa-fw fa-code"></i> <a href="https://github.com/razonyang/hugo-theme-bootstrap/commit/0fa91672cac03e4bd209587fa98053ff987f87bd" target="_blank" rel="noopener noreferrer">0fa91672</a>
+                </li>
+                <li class="mb-1">
+                    <i class="fas fa-fw fa-history"></i> 27/07/2022, 08:51:26 AM
+                </li></ul>
+        </div>
+    </div>
+</div>
+
+
+  </div>
+</aside>
+
+      </div>
+    </main><footer class="footer mt-auto py-3 text-center container"><div class="offcanvas offcanvas-bottom h-auto" tabindex="-1" id="offcanvasActionsPanel"
+  aria-labelledby="offcanvasActionsPanelLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title fs-4" id="offcanvasActionsPanelLabel">
+      <i class="fas fa-fw fa-th-large me-1"></i>
+      操作
+    </h5>
+    <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" data-bs-target="offcanvasActionsPanel" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body mt-2"><div class="social-share mb-4 d-flex overflow-auto">
+      <a class="btn-social-share d-flex flex-column align-items-center me-3" rel="noopener noreferrer" aria-label="Twitter Share Button"
+      target="_blank" href="https://twitter.com/intent/tweet?title=%e8%81%af%e7%b9%ab%e6%88%91&url=https%3a%2f%2frazonyang.github.io%2fhbs-test%2fzh-hant%2fcontact%2f">
+        <i class="fab fa-2x fa-fw fa-twitter mb-2"></i> Twitter
+      </a>
+      <a class="btn-social-share d-flex flex-column align-items-center me-3" rel="noopener noreferrer" aria-label="Facebook Share Button"
+        target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frazonyang.github.io%2fhbs-test%2fzh-hant%2fcontact%2f">
+        <i class="fab fa-2x fa-fw fa-facebook-f mb-2"></i> Facebook
+      </a>
+    </div>
+    <hr class="mb-4"><div class="actions d-flex overflow-auto align-items-center">
+      <a role="button" class="action action-go-back d-flex flex-column align-items-center me-3" href="javascript: window.history.back();">
+        <span class="action-icon mb-2"><i class="fas fa-2x fa-chevron-circle-down" data-fa-transform="rotate-90"></i></span> 返回
+      </a>
+      <a role="button" class="action action-reload-page d-flex flex-column align-items-center me-3">
+        <span class="action-icon mb-2"><i class="fas fa-2x fa-redo-alt"></i></span> 刷新
+      </a>
+      <a role="button" class="action action-copy-url d-flex flex-column align-items-center me-3">
+        <span class="action-icon mb-2"><i class="fas fa-2x fa-link"></i></span> 複製連結
+      </a>
+    </div>
+  </div>
+</div><ul class="nav justify-content-between footer-memu mb-3"><li class="nav-item"><ul class="nav flex-column align-items-start">
+      <li class="nav-item"><a class="nav-link fw-bold fs-lg" href="javascript: void(0);">Support
+</a></li><li class="nav-item"><a class="nav-link" href="https://github.com/razonyang/hugo-theme-bootstrap" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-github me-1"></i>Repository
+</a></li><li class="nav-item"><a class="nav-link" href="https://github.com/razonyang/hugo-theme-bootstrap/discussions/new" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-comments me-1"></i>Discussions
+</a></li><li class="nav-item"><a class="nav-link" href="https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=feature_request.md" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-lightbulb me-1"></i>Features Request
+</a></li><li class="nav-item"><a class="nav-link" href="https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=bug_report.md" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-bug me-1"></i>Bug Report
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/get-involved/"><i class="fas fa-handshake fa-fw me-1"></i>參與我們
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/faq/"><i class="fas fa-fw fa-question-circle me-1"></i>常見問題
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/contact/"><i class="fas fa-fw fa-info-circle me-1"></i>聯繫我
+</a></li></ul></li><li class="nav-item"><ul class="nav flex-column align-items-start">
+      <li class="nav-item"><a class="nav-link fw-bold fs-lg" href="javascript: void(0);">Docs
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/getting-started/">快速入門
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/configuration/"><i class="fas fa-cog fa-fw me-1"></i>配置
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/look-and-feel/"><i class="fas fa-fw fa-palette me-1"></i>觀感
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/content/"><i class="fas fa-newspaper fa-fw me-1"></i>內容
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/advanced/custom-assets/">自定義資源
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/advanced/hooks/">鉤子
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/layouts/archives/"><i class="fas fa-fw fa-file-archive"></i>歸檔頁面
+</a></li></ul></li><li class="nav-item"><ul class="nav flex-column align-items-start">
+      <li class="nav-item"><a class="nav-link fw-bold fs-lg" href="javascript: void(0);">Features
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/layouts/search/"><i class="fas fa-fw fa-search me-1"></i>搜索頁面
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/pwa/"><i class="fas fa-th-large fa-fw me-1"></i>PWA
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/image-processing/"><i class="fas fa-image fa-fw me-1"></i>圖像處理
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/image-viewer/"><i class="fas fa-images fa-fw me-1"></i>圖片查看器
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/layouts/contact/"><i class="fas fa-fw fa-question-circle me-1"></i>聯繫表單
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/widgets/reward/"><i class="fas fa-fw fa-coffee me-1"></i>打賞小部件
+</a></li><li class="nav-item"><a class="nav-link" href="/hbs-test/zh-hant/docs/widgets/comments/"><i class="fas fa-fw fa-comments me-1"></i>評論小部件
+</a></li></ul></li><li class="nav-item"><ul class="nav flex-column align-items-start">
+      <li class="nav-item"><a class="nav-link fw-bold fs-lg" href="javascript: void(0);">Demo
+</a></li><li class="nav-item"><a class="nav-link" href="https://hbs.razonyang.com" target="_blank" rel="noopener noreferrer">Netlify
+</a></li><li class="nav-item"><a class="nav-link" href="https://hbs-cn.razonyang.com" target="_blank" rel="noopener noreferrer">China
+</a></li></ul></li></ul>
+
+
+<nav class="social-links nav justify-content-center mb-2">
+      <a class="nav-link social-link" target="_blank" href="https://www.artstation.com/yourartstationusername" title="ArtStation" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-artstation"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://space.bilibili.com/yourbilibiliuserid" title="嗶哩嗶哩" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-bilibili"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://bitbucket.org/yourbitbucketworkspaceid" title="Bitbucket" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-bitbucket"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://discord.com/invite/yourdiscordinvitecode" title="Discord" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-discord"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://yourforum.tld" title="Discourse" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-discourse"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://hub.docker.com/u/yourdockerhubusername" title="Docker Hub" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-docker"></i>
+      </a>
+    <a class="nav-link social-link" href="mailto:user@domain.tld" title="電子郵箱">
+      <i class="fas fa-fw fa-2x fa-envelope"></i>
+    </a>
+      <a class="nav-link social-link" target="_blank" href="https://facebook.com/yourfacebookusername" title="臉書" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-facebook-f"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://facebook.com/groups/yourfacebookgroupname" title="臉書群組" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-facebook-square"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://github.com/razonyang/hugo-theme-bootstrap" title="GitHub" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-github"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://gitlab.com/yourgitlabusername" title="GitLab" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-gitlab"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://www.instagram.com/yourinstagramusername" title="Instagram" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-instagram"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://kaggle.com/yourkaggleusername" title="Kaggle" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-kaggle"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://www.last.fm/user/yourlastfmusername" title="Last.fm" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-lastfm"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://liberapay.com/yourliberapayaccount" title="Liberapay" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-liberapay"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://linkedin.com/in/yourlinkedinusername" title="領英" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-linkedin-in"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://mastodon.social/@yourmastodonusername" title="Mastodon" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-mastodon"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://medium.com/@yourmediumusername" title="Medium" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-medium-m"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://www.patreon.com/razonyang" title="Patreon" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-patreon"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://www.paypal.com/paypalme/razonyang" title="PayPal" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-paypal"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://www.pinterest.com/yourpinterestusername" title="Pinterest" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-pinterest"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=yourqqnumber&amp;site=qq&amp;menu=yes" title="QQ" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-qq"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://www.quora.com/profile/yourquorausername" title="Quora" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-quora"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://www.reddit.com/user/yourredditusername" title="Reddit" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-reddit"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://stackoverflow.com/users/yourstackoverflowuserid" title="Stack Overflow" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-stack-overflow"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://t.me/yourtelegramusername" title="Telegram" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-telegram-plane"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://www.tiktok.com/@yourtiktokusername" title="TikTok" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-tiktok"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://fr.tipeee.com/yourtipeeeaccount-fr" title="Tipeee" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-tipeee"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://yourtumblrusername.tumblr.com" title="Tumblr" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-tumblr"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://twitter.com/yourtwitterusername" title="推特" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-twitter"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://weibo.com/yourweibousername" title="微博" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-weibo"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://www.xing.com/profile/yourxingusername" title="XING" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-xing"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://www.youtube.com/channel/youryoutubechannelid" title="YouTube" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-youtube"></i>
+      </a>
+      <a class="nav-link social-link" target="_blank" href="https://www.zhihu.com/people/yourzhihuusername" title="知乎" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-zhihu"></i>
+      </a>
+  <a class="nav-link social-link" target="_blank" href="https://razonyang.github.io/hbs-test/zh-hant/docs/widgets/index.xml" title="RSS" rel="noopener noreferrer">
+    <i class="fas fa-fw fa-2x fa-rss"></i>
+  </a>
+</nav>
+<div class="copyright mb-2">Copyright © 2016-2022 Razon Yang. All Rights Reserved.
+
+</div>
+<div class="powered-by mb-2">
+  Powered by <a class="text-primary" href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a> and the <a class="text-primary" href="https://github.com/razonyang/hugo-theme-bootstrap" target="_blank" rel="noopener noreferrer">HBS</a> theme.
+</div>
+<div class="sponsors">
+    <a class="me-3" href="https://www.netlify.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" width="114" height="51" loading="lazy" />
+    </a>
+    <a href="https://docsearch.algolia.com/" target="_blank" rel="noopener noreferrer">
+        <img class="bg-light p-2" src="https://docsearch.algolia.com/img/docsearch-logo.svg" alt="Search powered by DocSearch" width="114" height="51" loading="lazy" />
+    </a>
+</div>
+
+<div class="d-none" id="template-custom-widget-foo">
+    <div class="custom-widget-foo"></div>
+  </div>
+  
+  <script type="text/html" id="template-custom-widget-bar">
+    <div class="custom-widget-bar">
+      NOTE THAT: ANY CSS INSIDE THE SCRIPT TAG WONT BE INCLUDED INTO THE STATS FILE.
+    </div>
+  </script>
+  </footer>
+<script data-precache src="https://razonyang.github.io/hbs-test/assets/main/bundle.min.d24c72f5fa0b0089e016d711b61b65e46305bef8c5c0ddf5a94c823bcffb6d11.js" integrity="sha256-0kxy9foLAIngFtcRthtl5GMFvvjFwN31qUyCO8/7bRE=" crossorigin="anonymous" defer></script><script data-precache src="https://razonyang.github.io/hbs-test/assets/icons/bundle.min.1b94600df680176fcd5d45bc8ad3358d843f24a3887f70af17c6c552b037b143.js" integrity="sha256-G5RgDfaAF2/NXUW8itM1jYQ/JKOIf3CvF8bFUrA3sUM=" crossorigin="anonymous" defer></script>
+<script data-precache src="https://razonyang.github.io/hbs-test/assets/viewer/bundle.min.9f713149f059d05fcb65e7f7c27308e61c384500e80ab1c333c2510a36a5d70c.js" integrity="sha256-n3ExSfBZ0F/LZef3wnMI5hw4RQDoCrHDM8JRCjal1ww=" crossorigin="anonymous" defer></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CL2BTGQE56"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-CL2BTGQE56', { 'anonymize_ip': false });
+}
+</script>
+<script data-precache src="https://razonyang.github.io/hbs-test/assets/docsearch/bundle.min.5993fefd60d8d044735c7be1c30dec38cf969cda009d5ea0bc7f82de684e96e8.js" integrity="sha256-WZP&#43;/WDY0ERzXHvhww3sOM&#43;WnNoAnV6gvH&#43;C3mhOlug=" crossorigin="anonymous" defer></script><script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('https:\/\/razonyang.github.io\/hbs-test\/service-worker.min.js').then(function(reg) {
+      console.log('Successfully registered service worker', reg);
+    }).catch(function(err) {
+      console.warn('Error whilst registering service worker', err);
+    });
+  });
+}
+</script>
+  </body>
+</html>

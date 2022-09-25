@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>升级 on Hugo Bootstrap</title>
+    <link>https://razonyang.github.io/hbs-test/zh-hans/tags/%E5%8D%87%E7%BA%A7/</link>
+    <description>Recent content in 升级 on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2016-2022 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sat, 04 Dec 2021 10:43:39 +0800</lastBuildDate><atom:link href="https://razonyang.github.io/hbs-test/zh-hans/tags/%E5%8D%87%E7%BA%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通过 Git Submodule 安装</title>
+      <link>https://razonyang.github.io/hbs-test/zh-hans/docs/getting-started/installation/git-submodule/</link>
+      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/zh-hans/docs/getting-started/installation/git-submodule/</guid>
+      <description><![CDATA[This article refers to the traditional installation method of cloning the theme locally as Git submodule. While this installation method is still widely used, we recommend to install the theme as Hugo module. 从头开始创建站点# 1$ git clone https://github.com/razonyang/hugo-theme-bootstrap-skeleton myblog 2$ cd myblog 3$ git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-theme-bootstrap 4$ sed -i &#34;s/theme:.*/theme: hugo-theme-bootstrap/g&#34; config/_default/config.yaml 5$ rm go.mod go.sum 6$ hugo mod npm]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

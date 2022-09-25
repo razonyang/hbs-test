@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Upgrade on Hugo Theme Bootstrap Docs v1</title>
+    <link>https://razonyang.github.io/hbs-test/en/tags/upgrade/</link>
+    <description>Recent content in Upgrade on Hugo Theme Bootstrap Docs v1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2016-2022 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sat, 26 Feb 2022 17:10:39 +0200</lastBuildDate><atom:link href="https://razonyang.github.io/hbs-test/en/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install via Hugo Module</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/getting-started/installation/hugo-module/</link>
+      <pubDate>Sat, 26 Feb 2022 17:10:39 +0200</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/getting-started/installation/hugo-module/</guid>
+      <description><![CDATA[This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module.
+Proxy (Optional)# If you&rsquo;re located at China mainland without VPN, the Hugo module download may fail.
+There are two proxies for this: GOPROXY.CN and GOPROXY.IO.
+1$ export HUGO_MODULE_PROXY=https://goproxy.cn Please note that, Hugo doesn&rsquo;t respect the GOPROXY env var, please use HUGO_MODULE_PROXY instead.
+You can also set the module.proxy instead of using env var.]]></description>
+    </item>
+    
+    <item>
+      <title>Install via Git Submodule</title>
+      <link>https://razonyang.github.io/hbs-test/en/docs/getting-started/installation/git-submodule/</link>
+      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
+      
+      <guid>https://razonyang.github.io/hbs-test/en/docs/getting-started/installation/git-submodule/</guid>
+      <description><![CDATA[This article refers to the traditional installation method of cloning the theme locally as Git submodule. While this installation method is still widely used, we recommend to install the theme as Hugo module.
+Create a New Site from Scratch# 1$ git clone https://github.com/razonyang/hugo-theme-bootstrap-skeleton myblog 2$ cd myblog 3$ git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-theme-bootstrap 4$ sed -i &#34;s/theme:.*/theme: hugo-theme-bootstrap/g&#34; config/_default/config.yaml 5$ rm go.mod go.sum 6$ hugo mod npm pack 7$ npm install 8$ hugo server If you&rsquo;re using Windows, use xcopy .]]></description>
+    </item>
+    
+  </channel>
+</rss>
+
